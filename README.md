@@ -14,12 +14,17 @@ halilarslan.sdet@gmail.com
 Hinweis: Um das Szenario von "PetStoreAddNewPet.Feature" zu führen, verwenden Sie '@wip' Tag in Cukesrunner -Klasse/Cucumber Options
 
 ## WEG:
--Klonen Sie das Projekt
--IMaven -Abhängigkeiten von pom.xml importieren
--src --> test > java > com > sauce > runners > CukesRunner und click RUN button
+-Klonen Sie das Projekt\
+-IMaven -Abhängigkeiten von pom.xml importieren\
+-src --> test > java > com > sauce > runners > CukesRunner und click RUN button\
 
-  My framework is Cucumber (BDD).\
-•  I built my framework using Java Programming Language.\
+1. Die Swagger-Dokumentation wurde verwendet, um Endpunkte zu erhalten, die für die REQUEST mit Base URL (https://petstore.swagger.io/v2) verwendet werden sollen\
+2. Bevor ich anfange, mein Automatisierungsframework zu erstellen und meine Codes zu schreiben, habe ich Postman manuell verwendet.
+  - und ich habe mit POST request eine neue Pet Id und NAME erstellt und ich habe überprüft, ob der Statuscode 200 ist.
+  - Dann habe ich durch GET - Request überprüft (mit Pet Id und Name), ob die neue ID und der Name des Pets erstellt wurden. Auch Statuscode 200 überprüft \
+3. Für den Test Automatisierung;
+   •  Ich habe Cucumber (BDD) als Framework und Gerkhin -Sprache verwendet \
+   •  Ich habe mein Framework mit der Programmiersprache Java erstellt.\
 •  I used maven as a build automation tool for my java project.\
 •  I used Cucumber-Junit and Cucumber runner to orchestrate tests.\
 •  Inside the Cucumber runner, I used glues to connect feature files to step definitions.\
