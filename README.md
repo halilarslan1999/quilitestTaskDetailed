@@ -23,8 +23,8 @@ Hinweis: Um das Szenario von "PetStoreAddNewPet.Feature" zu führen, verwenden S
   - und ich habe mit POST request eine neue Pet Id und NAME erstellt und ich habe überprüft, ob der Statuscode 200 ist.
   - Dann habe ich durch GET - Request überprüft (mit Pet Id und Name), ob die neue ID und der Name des Pets erstellt wurden. Auch Statuscode 200 überprüft \
 3. Für den Test Automatisierung;
-   •  Ich habe Cucumber (BDD) als Framework und Gerkhin -Sprache verwendet \
-   •  Ich habe mein Framework mit der Programmiersprache Java erstellt.\
+###•  Ich habe Cucumber (BDD) als Framework und Gerkhin -Sprache verwendet \
+###•  Ich habe mein Framework mit der Programmiersprache Java erstellt.\
 •  I used maven as a build automation tool for my java project.\
 •  I used Cucumber-Junit and Cucumber runner to orchestrate tests.\
 •  Inside the Cucumber runner, I used glues to connect feature files to step definitions.\
