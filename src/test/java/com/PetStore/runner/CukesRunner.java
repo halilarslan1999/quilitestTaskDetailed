@@ -12,9 +12,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/apiFeature",
         glue = "com/PetStore/stepDef",
         dryRun = false,
-        tags = "@wip"
+        tags = "@wip4"
 )
 public class CukesRunner {
-
 
 }

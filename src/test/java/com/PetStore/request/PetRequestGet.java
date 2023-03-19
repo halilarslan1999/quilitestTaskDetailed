@@ -20,10 +20,16 @@ public class PetRequestGet {
                 .and().assertThat().contentType("application/json")
                 .and().assertThat()
                 .body("id", equalTo(id),
-                        "name", equalTo(name))
-                .log().all();
-
+                        "name", equalTo(name));
     }
 
+    public static Response getPetNameMethod2(String id) {
+
+        response = given().accept(ContentType.JSON).and()
+                .pathParam("id", id)
+                .when().get(ConfigurationReader.get("getPet"));
+
+        return response;
+    }
 
 }

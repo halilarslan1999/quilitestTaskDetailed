@@ -19,13 +19,13 @@ public class ConfigurationReader {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     public static String get(String keyName) {
 
         return properties.getProperty(keyName);
     }
+
 
     public static void set(String keyName, String value) {
         String path = "Configuration.properties";
